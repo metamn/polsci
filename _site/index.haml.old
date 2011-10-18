@@ -1,0 +1,112 @@
+<html>
+  <head>
+    <title>
+      Csongor Bartus      
+    </title>
+    <link href="/css/base.css" media="all" type="text/css" rel="stylesheet">
+    <link href="/css/layout.css" media="all" type="text/css" rel="stylesheet">
+    <link href="/css/theme.css" media="all" type="text/css" rel="stylesheet">
+    
+    <link href="/css/mobile.css" charset="utf-8" media="screen and (max-width: 480px)" rel="stylesheet" type="text/css" />
+    <link href="/css/tablet.css" charset="utf-8" media="screen and (min-width: 481px) and (max-width: 1024px)" rel="stylesheet" type="text/css" />
+	  <link href="/css/wide.css" charset="utf-8" media="screen and (min-width: 1025px) and (max-width: 1399px)" rel="stylesheet" type="text/css" />
+    <link href="/css/large.css" charset="utf-8" media="screen and (min-width: 1400px)" rel="stylesheet" type="text/css" />        
+    
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.init.js"></script>
+  </head>
+  
+  <body>
+    <div id="content" class="block">
+      <div class="container">
+        #index 
+  .col-1
+    #intro.block
+      %h1
+        Hello 37Signals!
+      #text
+        %p
+          I'm here to 
+          %span.learn learn 
+          about us and enjoy 
+          %span.beauty beauty.
+        %p
+          Meantime to support myself I've 
+          %span.self-taught self-taught 
+          to 
+          %span.design design 
+          and 
+          %span.develop develop 
+          (mostly for web)
+    #timeline.block
+      #design.col-11
+        %ul
+          %li.eleven
+            %span.date 11 
+            Shopify
+          %li.ten
+            %span.date 10 
+            Smuff
+          %li.nine
+            %span.date 09 
+            clair
+          %li.eight
+            %span.date 08 
+            xxx
+          %li.seven
+            %span.date 07 
+            arigato
+      #develop.col-12
+        %ul
+          %li.ten
+            %span.date 10 
+            Kobi (Ruby on Rails)
+          %li.ten
+            %span.date 10 
+            Smuff (Wordpress)
+          %li.eight
+            %span.date 08 
+            Tusnad (Ruby on Rails)
+      #startup.block
+        %h3 Oh, I've also co-founded Smuff
+        %img{:src => '/images/smuff-icon.jpg'}
+        
+  .col-2
+    #writings
+      
+      #item
+        %h5
+          Wisdom
+        When OR can be AND by any meanings    
+      
+      #item
+        %h5
+          Information
+        Ten years ago it represented the status. Now even friends are running away when trying to give them some.    
+      
+      #item
+        %h5
+          Images Are Programs
+        Everything we perceive is a program, nothing more.    
+      
+    #shopify
+      %ul.inline-list
+        %li
+          #circle.scrol
+            &nbsp;
+        %li
+          #circle.scrol-sf
+            &nbsp;
+        %li.last
+          #circle.scrol-madrid
+            &nbsp;
+      #text
+        Shopify thought me designing in such way to use a minimum set of elements
+        
+              
+    
+
+      </div>
+    </div>
+  </body>
+</html>
