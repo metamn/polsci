@@ -8,9 +8,11 @@
     <link rel="alternate" type="application/atom+xml" href="atom.xml" title="Atom feed">
 
     <title>
-      
-        Department of Political Science  
-           
+      {% if page.title != _blank %}
+        {{ page.title }} - {{ site.title }}
+      {% else %}
+        {{ site.title }}  
+      {% endif %}     
     </title>
     
     <link href="/assets/base.css" rel="stylesheet"> 
@@ -27,36 +29,4 @@
     
     <script type="text/javascript" src="/assets/modernizr.custom.30919.js"></script>
   </head>
-
-  
-
-<body>
-  <div id="container">
-    
-    <header id="header">
-  <hgroup>
-    <h1><a href="/">Department of Political Science</a></h1>
-  </hgroup>
-  
-  <nav id="menu">
-    <h3 class="hidden">Top menu</h3>    
-    <ul>     
-    </ul>     
-  </nav>    
-</header>
-    
-    
-    <section id="content">
-    </section>
-  </div>
-  
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
-<script type="text/javascript" src="/assets/jquery.init.js"></script>
-
-<!--<script type="text/javascript" src="/assets/jquery.grid.js"></script>-->
-
-  
-</body>
-</html>
-
 
