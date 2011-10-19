@@ -8,3 +8,15 @@
 #header img {
   width: 80%;
 }
+
+
+/* Startpage
+*/
+
+.startpage #excerpt, .startpage #body {  
+  bottom: 2.5em;
+}
+.startpage #excerpt #read-more {
+  bottom: 0;
+  right: 1%;
+}

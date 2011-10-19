@@ -1,0 +1,22 @@
+/* Header
+*/
+
+
+#header {
+  width: 25%;
+}
+#header img {
+  width: 80%;
+}
+
+
+/* Startpage
+*/
+
+.startpage article {
+  width: auto;
+}
+.startpage #excerpt {
+  width: 45%;
+  bottom: 3.75em;
+}

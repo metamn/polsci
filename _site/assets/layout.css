@@ -35,10 +35,17 @@
 .startpage article #body {
   display: none;
 }
-.startpage #excerpt {
+.startpage #excerpt, .startpage #body {
   position: fixed;
   left: 45%;
-  bottom: 5em;
   width: 50%;
+  bottom: 5em;
+}
+.startpage #excerpt #read-more {
+  padding: 0;
+  position: fixed;
+  bottom: 3%;
+  right: 2%;
+  cursor: pointer;
 }
 
