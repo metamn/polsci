@@ -2,11 +2,14 @@
 */
 
 
-#header {
+#header, #menu {
   width: 25%;
 }
 #header img {
   width: 80%;
+}
+#title {
+  padding-bottom: .312em;
 }
 
 

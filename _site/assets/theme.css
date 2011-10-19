@@ -14,7 +14,6 @@ h3 { font-size:1.61538em; padding:1.30936em 0; }
 
 
 
-
 /* Colors
 */
 
@@ -52,6 +51,20 @@ a, a:visited {
 #header h2 span {
   font-style: italic;
 }
+
+#title {
+  text-shadow: 1px 1px 1px #D6F2FF;
+}
+
+#menu ul li {
+  border-bottom: 1px dotted;
+  letter-spacing: .312em;
+}
+#menu ul li a, #menu ul li a:visited {
+  background: #36392F;
+  color: #f3f3f3;
+  padding: 0 .312em;
+} 
 
 
 

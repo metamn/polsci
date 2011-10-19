@@ -21,6 +21,15 @@
   padding: 0;
 }
 
+#menu ul {
+  list-style: none;
+}
+#menu ul li {
+  margin-bottom: .625em;
+  padding-left: .625em;
+}
+
+
 
 /* Startpage
 */

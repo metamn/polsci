@@ -8,6 +8,12 @@
 #header img {
   width: 80%;
 }
+#title {
+  padding-bottom: .312em;
+}
+#menu {
+  width: 35%;
+}
 
 
 /* Startpage
@@ -19,4 +25,11 @@
 .startpage #excerpt {
   width: 45%;
   bottom: 3.75em;
+}
+.startpage #excerpt, .startpage #body {  
+  bottom: 2.5em;
+}
+.startpage #excerpt #read-more {
+  bottom: 0;
+  right: 5%;
 }

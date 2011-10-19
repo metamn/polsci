@@ -3,10 +3,23 @@
 
 {% include head.html %}  
 
-<body class="{{ page.title | downcase }}">
+<body class="{{ page.css_id | downcase }}">
   <div id="container">
       
-    {% include header.html %}    
+    {% include header.html %}   
+    
+    <h1 id="title">{{ page.title }}</h1>
+    
+    <nav id="menu">
+      <h3 class="hidden">Top menu</h3>    
+      <ul>
+        <li><h4><a href="/">Admissions</a></h4></li>
+        <li><h4><a href="/">Teaching</a></h4></li>   
+        <li><h4><a href="/">Students</a></h4></li>
+        <li><h4><a href="/">People</a></h4></li>
+        <li><h4><a href="/">Contact Us</a></h4></li>
+      </ul>     
+    </nav>   
     
     <section id="content">
       {{ content }}
