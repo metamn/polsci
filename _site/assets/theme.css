@@ -17,8 +17,16 @@ h3 { font-size:1.61538em; padding:1.30936em 0; }
 /* Colors
 */
 
+/*
+- base, gray: F5F4F2, from the header opacity
+  - blue: B6E1F6
+*/
+
 
 body {
+  background: url(/assets/background.jpg) center center fixed no-repeat;
+  -moz-background-size: cover;
+  background-size: cover;
   color: #222;
 }
 
@@ -31,10 +39,26 @@ a, a:visited {
 /* Header
 */
 
+#header {
+  background: #f9f9f9;
+  opacity: .7;
+}
 #header h2 a, #header h2 a:visited {
   color: #ccc;
 }
 #header h2 span {
   font-style: italic;
+}
+
+
+/* Startpage
+*/
+
+.startpage article section {
+  background: #B6E1F6;
+  opacity: .9;
+}
+.startpage article #excerpt {
+  font-size: larger;
 }
 

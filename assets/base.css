@@ -84,7 +84,9 @@ p {
   word-wrap: break-word; /* IE */
   -moz-binding: url('xbl.xml#wordwrap'); /* Firefox (using XBL) */
 }
-
+p + p {
+  margin-top: 1.25em;
+}
 
 /* Common 
 */
