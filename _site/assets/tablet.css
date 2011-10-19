@@ -33,3 +33,6 @@
   bottom: 0;
   right: 5%;
 }
+.startpage #secondary {
+  bottom: .1em;
+}

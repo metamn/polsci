@@ -19,6 +19,9 @@
 .startpage #excerpt, .startpage #body {  
   bottom: 2.5em;
 }
+.startpage #secondary {
+  bottom: .1em;
+}
 .startpage #excerpt #read-more {
   bottom: 0;
   right: 1%;

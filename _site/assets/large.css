@@ -6,3 +6,16 @@
   width: 25%;
 }
 
+/* Startpage
+*/
+
+.startpage #excerpt, .startpage #body {  
+  bottom: 5em;
+}
+.startpage #secondary, .startpage #excerpt #read-more {
+  bottom: 3%;
+}
+.startpage #excerpt #read-more {
+  right: 2%;
+}
+

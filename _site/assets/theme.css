@@ -21,6 +21,7 @@ h3 { font-size:1.61538em; padding:1.30936em 0; }
 - base, gray: F5F4F2, from the header opacity
   - blue: B6E1F6
     - darker: 6C95A9
+  - orange: F6AB79
 */
 
 
@@ -83,6 +84,10 @@ a, a:visited {
   color: #6C95A9;
 }
 
-
+.startpage #secondary li {
+  background: #F6AB79;
+  opacity: .9;
+  border: .156em solid rgba(255, 255, 255, 0.2);
+}
 
 
