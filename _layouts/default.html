@@ -5,14 +5,16 @@
 
 <body>
   <div id="container">
-    
+      
     {% include header.html %}    
     
     <section id="content">
+      {{ content }}
     </section>
+    
+    {% include footer.html %}  
   </div>
   
-  {% include footer.html %}
   {% include ga.html %}
 </body>
 </html>

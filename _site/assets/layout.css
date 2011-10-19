@@ -1,2 +1,22 @@
+#container {
+  width: 80%;
+  margin: 0 auto;
+}
 
+
+
+
+/* Header
+*/
+
+#header {
+  margin-top: 5em;
+}
+#header #ceu-logo {
+  margin-bottom: 1.25em;
+}
+
+#header h1, #header h2 {
+  padding: 0;
+}
 
