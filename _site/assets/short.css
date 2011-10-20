@@ -1,0 +1,30 @@
+#container {
+  width: 95%;
+}
+
+
+/* Header
+*/
+
+
+#header img {
+  width: 60%;
+}
+
+#title {
+  padding-top: .625em;
+}
+
+
+
+/* Startpage
+*/
+
+.startpage #body {
+  top: -7.5em;
+  left: 44.5%;
+  position: relative;
+}
+.startpage #excerpt, .startpage #body {
+  font-size: 100% !important; 
+}

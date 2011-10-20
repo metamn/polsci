@@ -8,10 +8,10 @@
 #header img {
   width: 80%;
 }
-#title {
-  padding-bottom: .312em;
-}
 
+#title {
+  padding: .625em 0 .312em;
+}
 
 /* Startpage
 */
@@ -22,7 +22,7 @@
 .startpage #secondary {
   bottom: .1em;
 }
-.startpage #excerpt #read-more {
+.startpage #read-more {
   bottom: 0;
   right: 1%;
 }

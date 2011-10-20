@@ -80,7 +80,7 @@ a, a:visited {
   font-size: larger;
   border: .156em solid rgba(255, 255, 255, 0.2);
 }
-.startpage article #read-more {
+.startpage #read-more {
   color: #6C95A9;
 }
 

@@ -54,7 +54,7 @@
   left: 45%;
   width: 50%;
 }
-.startpage #excerpt #read-more {
+.startpage #read-more {
   padding: 0;
   position: fixed;
   cursor: pointer;
@@ -63,3 +63,10 @@
   margin-right: .625em;
   padding: .312em .625em;
 }
+
+
+
+/* Common
+*/
+
+

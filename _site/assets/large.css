@@ -12,10 +12,10 @@
 .startpage #excerpt, .startpage #body {  
   bottom: 5em;
 }
-.startpage #secondary, .startpage #excerpt #read-more {
+.startpage #secondary, .startpage #read-more {
   bottom: 3%;
 }
-.startpage #excerpt #read-more {
+.startpage #read-more {
   right: 2%;
 }
 

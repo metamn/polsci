@@ -1,3 +1,14 @@
+/* Typography
+*/
+
+
+h1 { font-size:2.11538em; padding:1.44305em 0; }
+h2, #read-more { font-size:1.61538em; padding:1.30936em 0; }
+h3 { font-size:1.30769em; padding:1.28686em 0; }
+
+
+
+
 /* Header
 */
 
@@ -9,7 +20,7 @@
   width: 80%;
 }
 #title {
-  padding-bottom: .312em;
+  padding: .625em 0 .312em;
 }
 #menu {
   width: 35%;
@@ -23,15 +34,15 @@
   width: auto;
 }
 .startpage #excerpt {
-  width: 45%;
+  width: 48%;
   bottom: 3.75em;
 }
 .startpage #excerpt, .startpage #body {  
   bottom: 2.5em;
 }
-.startpage #excerpt #read-more {
+.startpage #read-more {
   bottom: 0;
-  right: 5%;
+  right: 3%;
 }
 .startpage #secondary {
   bottom: .1em;
