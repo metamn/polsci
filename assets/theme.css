@@ -61,6 +61,9 @@ a, a:visited {
   border-bottom: 1px dotted;
   letter-spacing: .312em;
 }
+#menu ul li.highlight {
+  letter-spacing: .625em;
+}
 #menu ul li a, #menu ul li a:visited {
   background: #36392F;
   color: #f3f3f3;
