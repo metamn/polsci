@@ -61,7 +61,7 @@ a, a:visited {
   border-bottom: 1px dotted;
   letter-spacing: .312em;
 }
-#menu ul li.highlight {
+#menu ul li a.highlight {
   letter-spacing: .625em;
 }
 #menu ul li a, #menu ul li a:visited {
@@ -95,5 +95,22 @@ a, a:visited {
   background: #F6AB79;
   opacity: .9;
 }
+
+
+/* News, Events
+*/
+
+.startpage aside h2 {
+  font-family: 'Rock Salt', cursive;
+}
+.startpage aside {
+  background: #000;
+  color: #F6AB79;
+  opacity: .7;
+}
+.startpage aside a, .startpage aside a:visited {
+  color: #999;
+}
+
 
 

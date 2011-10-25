@@ -19,3 +19,6 @@
 .startpage #secondary {
   bottom: .1em;
 }
+.startpage aside {
+  bottom: 3em;
+}

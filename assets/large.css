@@ -15,4 +15,7 @@
 .startpage #secondary, .startpage #read-more {
   bottom: 3%;
 }
+.startpage aside {
+  bottom: 6em;
+}
 
