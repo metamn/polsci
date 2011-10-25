@@ -9,9 +9,6 @@
   width: 80%;
 }
 
-#title {
-  padding: .625em 0 .312em;
-}
 
 /* Startpage
 */
@@ -21,8 +18,4 @@
 }
 .startpage #secondary {
   bottom: .1em;
-}
-.startpage #read-more {
-  bottom: 0;
-  right: 1%;
 }

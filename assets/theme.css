@@ -78,16 +78,19 @@ a, a:visited {
 }
 .startpage article #excerpt, .startpage article #body {
   font-size: larger;
-  border: .156em solid rgba(255, 255, 255, 0.2);
 }
-.startpage #read-more {
-  color: #6C95A9;
-}
-
+.startpage article #excerpt, .startpage article #body,
 .startpage #secondary li {
+  border: .312em solid rgba(0, 0, 0, 0.1);
+  background-clip: padding-box;
+}
+.startpage article #excerpt:hover,
+.startpage #secondary li:hover {
+  border: .312em solid rgba(255, 255, 255, 0.1);
+}
+.startpage #secondary li h4 {
   background: #F6AB79;
   opacity: .9;
-  border: .156em solid rgba(255, 255, 255, 0.2);
 }
 
 

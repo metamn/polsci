@@ -11,8 +11,14 @@
   width: 60%;
 }
 
-#title {
-  padding-top: .625em;
+#menu h4 {
+  font-size: smaller;
+}
+#menu ul {
+  width: 82%;
+}
+#menu ul li {
+  margin-bottom: .312em;
 }
 
 

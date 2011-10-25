@@ -19,9 +19,6 @@ h3 { font-size:1.30769em; padding:1.28686em 0; }
 #header img {
   width: 80%;
 }
-#title {
-  padding: .625em 0 .312em;
-}
 #menu {
   width: 35%;
 }
@@ -39,10 +36,6 @@ h3 { font-size:1.30769em; padding:1.28686em 0; }
 }
 .startpage #excerpt, .startpage #body {  
   bottom: 2.5em;
-}
-.startpage #read-more {
-  bottom: 0;
-  right: 3%;
 }
 .startpage #secondary {
   bottom: .1em;
