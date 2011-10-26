@@ -42,8 +42,6 @@ jQuery(document).ready(function(){
   }
   
   
-  
-  
   // Enlarge menu on hover 
   jQuery("#menu ul li a").hover(
     function () {
@@ -60,4 +58,8 @@ jQuery(document).ready(function(){
     jQuery(".startpage #body").toggle('slow');   
     jQuery(".startpage #excerpt").toggle('slow');
   });
+  
+  
+  // Set background image
+  jQuery('body').css('background-image', 'url(' + jQuery("#background-image").html() + ')');  
 });

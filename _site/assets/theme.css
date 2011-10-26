@@ -26,7 +26,9 @@ h3 { font-size:1.61538em; padding:1.30936em 0; }
 
 
 body {
-  background: url(/assets/background.jpg) center center fixed no-repeat;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
   -moz-background-size: cover;
   background-size: cover;
   color: #222;
