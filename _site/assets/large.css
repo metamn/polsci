@@ -9,10 +9,10 @@
 /* Startpage
 */
 
-.startpage #excerpt, .startpage #body {  
+#excerpt, #body {  
   bottom: 5em;
 }
-.startpage #secondary, .startpage #read-more {
+#secondary {
   bottom: 3%;
 }
 .startpage aside {

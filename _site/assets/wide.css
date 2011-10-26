@@ -16,7 +16,7 @@
 .startpage #excerpt, .startpage #body {  
   bottom: 2.5em;
 }
-.startpage #secondary {
+#secondary {
   bottom: .1em;
 }
 .startpage aside {

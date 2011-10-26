@@ -37,7 +37,7 @@ h3 { font-size:1.30769em; padding:1.28686em 0; }
 .startpage #excerpt, .startpage #body {  
   bottom: 2.5em;
 }
-.startpage #secondary {
+#secondary {
   bottom: .1em;
 }
 .startpage aside {

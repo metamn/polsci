@@ -57,6 +57,11 @@ a, a:visited {
   text-shadow: 1px 1px 1px #D6F2FF;
 }
 
+
+
+/* Menu
+*/
+
 #menu ul li {
   border-bottom: 1px dotted;
   letter-spacing: .312em;
@@ -72,26 +77,27 @@ a, a:visited {
 
 
 
-/* Startpage
+
+/* Startpage, Secondary menu
 */
 
-.startpage article section {
+article section {
   background: #B6E1F6;
   opacity: .9;
 }
-.startpage article #excerpt, .startpage article #body {
+article #excerpt, article #body {
   font-size: larger;
 }
-.startpage article #excerpt, .startpage article #body,
-.startpage #secondary li {
+article #excerpt, article #body,
+#secondary li {
   border: .312em solid rgba(0, 0, 0, 0.1);
   background-clip: padding-box;
 }
-.startpage article #excerpt:hover,
-.startpage #secondary li:hover {
+article #excerpt:hover,
+#secondary li:hover {
   border: .312em solid rgba(255, 255, 255, 0.1);
 }
-.startpage #secondary li h4 {
+#secondary li h4 {
   background: #F6AB79;
   opacity: .9;
 }

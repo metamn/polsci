@@ -22,9 +22,14 @@
   padding: 0;
 }
 
+
+
+/* Menu
+*/
+
 #menu {
   z-index: 1;
-  position: relative;
+  position: fixed;
 }
 #menu ul {
   list-style: none;
@@ -34,35 +39,74 @@
   margin-bottom: .625em;
   padding-left: 5%;
 }
+#menu ul ul {
+  display: none;
+}
+
+
+/* Secondary menu
+*/
+
+#secondary {
+  position: fixed;
+  right: 1%;
+}
+#secondary ul {
+  margin: 0;
+  list-style: none;
+}
+#secondary li {
+  margin-right: .625em;
+}
+#secondary li h4 {
+  padding: .325em .625em;
+  cursor: pointer;
+}
+
+
+
+
+/* Page
+*/
+
+article {
+  width: 50%;
+  position: relative;
+  margin-left: 44.5%;
+}
+article section {
+  padding: 1.25em;
+}
+
 
 
 
 /* Startpage
 */
 
-.startpage article {
-  width: 50%;
-}
-.startpage article section {
-  width: 80%;
-  padding: 1.25em;
+.startpage article section {  
   cursor: pointer;
 }
 .startpage article #body {
   display: none;
 }
-.startpage #excerpt, .startpage #body, .startpage #secondary {
+.startpage article #body {
+  display: none;
+}
+.startpage #body, .startpage #excerpt {
   position: fixed;
+}
+.startpage #secondary {
   left: 45%;
-  width: 50%;
 }
-
-.startpage #secondary li {
-  margin-right: .625em;
+.startpage #secondary ul {
+  display: block;
 }
-.startpage #secondary li h4 {
-  padding: .325em .625em;
-  cursor: pointer;
+.startpage #secondary ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin-left: 0;
+  white-space: nowarp;  
 }
 
 
