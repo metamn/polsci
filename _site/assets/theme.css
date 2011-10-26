@@ -106,10 +106,14 @@ a, a:visited {
 .startpage aside {
   background: #000;
   color: #F6AB79;
-  opacity: .7;
+  opacity: .8;
+  font-family: 'Abel', sans-serif;
 }
 .startpage aside a, .startpage aside a:visited {
-  color: #999;
+  color: #B6E1F6;
+}
+.startpage aside li {
+  border-bottom: 1px solid #111;
 }
 
 

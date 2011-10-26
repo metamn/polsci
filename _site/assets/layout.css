@@ -79,13 +79,14 @@
   margin-left: 40.1%;
 }
 .startpage #events {
-  margin-left: 70%;
+  margin-left: 67%;
 }
 .startpage aside ul {
   list-style: square;
 }
 .startpage aside li {
-  margin-bottom: 1.25em;
+  margin-bottom: .625em;
+  padding-bottom: .625em;
 }
 
 

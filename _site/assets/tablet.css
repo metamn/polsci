@@ -3,7 +3,7 @@
 
 
 h1 { font-size:2.11538em; padding:1.44305em 0; }
-h2, #read-more { font-size:1.61538em; padding:1.30936em 0; }
+h2 { font-size:1.61538em; padding:1.30936em 0; }
 h3 { font-size:1.30769em; padding:1.28686em 0; }
 
 
@@ -40,3 +40,15 @@ h3 { font-size:1.30769em; padding:1.28686em 0; }
 .startpage #secondary {
   bottom: .1em;
 }
+.startpage aside {
+  bottom: 2.5em;
+  width: 22%;
+}
+.startpage aside ul {
+  margin: 1.25em;
+}
+.startpage aside h2 {
+  padding: 1.25em 0;
+}
+
+

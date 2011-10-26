@@ -22,3 +22,6 @@
 .startpage aside {
   bottom: 3em;
 }
+.startpage aside h2 {
+  padding: 1.25em 0;
+}

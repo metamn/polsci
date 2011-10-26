@@ -8,6 +8,7 @@ jQuery(document).ready(function(){
   jQuery("#secondary li h4").click(function() {
     var id = "#" + jQuery(this).attr('class'); 
     jQuery(id).toggle('slow', function() {
+      // Check which div to switch of
       if (jQuery(".startpage #body").is(":visible")) {
         toggleArticleOpacity("");  
       } else {
@@ -18,11 +19,12 @@ jQuery(document).ready(function(){
   });
   
   // Hiding or showing the main article 
+  // div - the ID of the article to switch ("excerpt", or "" for both)
   function toggleArticleOpacity(div) {    
     var switchOff = false;
     
     jQuery.each(["#news", "#events"], function(index, value) { 
-      switchOff = switchOff || (jQuery(".startpage " + value).css('display') ==  'block');
+      switchOff = switchOff || (jQuery(".startpage " + value).is(":visible"));
     });
     
     if (switchOff) {

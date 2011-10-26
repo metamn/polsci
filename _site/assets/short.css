@@ -27,10 +27,20 @@
 */
 
 .startpage #body {
-  top: -7.5em;
+  top: -13.5em;
   left: 44.5%;
   position: relative;
 }
 .startpage #excerpt, .startpage #body {
   font-size: 100% !important; 
+}
+.startpage aside {
+  font-size: small;
+  bottom: 3em;
+}
+.startpage #news {
+  margin-left: 43.1%;
+}
+.startpage #events {
+  margin-left: 70%;
 }
