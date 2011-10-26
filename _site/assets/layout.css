@@ -14,10 +14,10 @@
   bottom: 0;
   z-index: 0; 
 }
-#header h1, #header h2 {
+#header h1, #header h2, #title h3 {
   padding: 0;
 }
-#header {
+#header, #title, ul#main {
   padding: 1.25em;  
 }
 #header #ceu-logo {
@@ -42,13 +42,14 @@
 /* Menu
 */
 
+
 #menu {
   z-index: 1;
   position: fixed;
 }
 #menu ul {
   list-style: none;
-  margin: 1.25em 5%;
+  margin: 2.5em 5%;
 }
 #menu ul li {
   margin-bottom: .625em;

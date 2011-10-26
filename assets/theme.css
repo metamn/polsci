@@ -44,7 +44,7 @@ a, a:visited {
 /* Header
 */
 
-#header {
+#header, #title, ul#main {
   background: #f9f9f9;
   opacity: .7;
 }
@@ -53,10 +53,6 @@ a, a:visited {
 }
 #header h2 span {
   font-style: italic;
-}
-
-#title {
-  text-shadow: 1px 1px 1px #D6F2FF;
 }
 
 
