@@ -10,16 +10,31 @@
 */
 
 #header {
-  padding: 2.5em 1.25em;
   position: fixed;
   bottom: 0;
   z-index: 0; 
 }
-#header #ceu-logo {
-  margin-bottom: 1.25em;
-}
 #header h1, #header h2 {
   padding: 0;
+}
+#header {
+  padding: 1.25em;  
+}
+#header #ceu-logo {
+  margin-bottom: .625em;
+}
+#header img {
+  width: 20%;
+}
+
+.startpage #header {
+  padding: 2.5em 1.25em;
+}
+.startpage #header #ceu-logo {
+  margin-bottom: 1.25em;
+}
+.startpage #header img {
+  width: auto;
 }
 
 

@@ -4,6 +4,13 @@ jQuery.noConflict();
 jQuery(document).ready(function(){
   
   
+  // Show submenus
+  var submenus = jQuery("body")[0].classList;
+  jQuery.each(submenus, function(index, value) { 
+    jQuery("#menu #" + value).show("slow");
+  });
+  
+  
   // Show Events, News, Search ...
   jQuery("#secondary li h4").click(function() {
     var id = "#" + jQuery(this).attr('class'); 
