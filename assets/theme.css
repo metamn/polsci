@@ -46,7 +46,7 @@ a, a:visited {
 
 #header, #title, ul#main {
   background: #f9f9f9;
-  opacity: .7;
+  opacity: .9;
 }
 #header h2 a, #header h2 a:visited {
   color: #ccc;
@@ -62,15 +62,21 @@ a, a:visited {
 
 #menu ul li {
   border-bottom: 1px dotted;
-  letter-spacing: .312em;
+  letter-spacing: .156em;
 }
 #menu ul li a.highlight {
-  letter-spacing: .625em;
+  letter-spacing: .25em;
 }
+
 #menu ul li a, #menu ul li a:visited {
   background: #36392F;
   color: #f3f3f3;
   padding: 0 .312em;
+} 
+#menu ul ul li a, #menu ul ul li a:visited {
+  color: #36392F;  
+  background: transparent;
+  padding: 0;
 } 
 
 
@@ -81,7 +87,7 @@ a, a:visited {
 
 article section {
   background: #B6E1F6;
-  opacity: .9;
+  opacity: .97;
 }
 article #excerpt, article #body {
   font-size: larger;

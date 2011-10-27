@@ -10,6 +10,10 @@ jQuery(document).ready(function(){
     jQuery("#menu #" + value).show("slow");
   });
   
+  // Show Home button when entering a submenu
+  if (!(submenus.contains('startpage'))) {
+    jQuery("#menu #home").show();
+  }
   
   // Show Events, News, Search ...
   jQuery("#secondary li h4").click(function() {
@@ -37,7 +41,7 @@ jQuery(document).ready(function(){
     if (switchOff) {
       jQuery(".startpage article" + div).fadeTo('slow', .1);
     } else {
-      jQuery(".startpage article" + div).fadeTo('slow', .9);
+      jQuery(".startpage article" + div).fadeTo('slow', .97);
     }
   }
   
