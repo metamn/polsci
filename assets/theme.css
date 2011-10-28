@@ -19,9 +19,9 @@ h3 { font-size:1.61538em; padding:1.30936em 0; }
 
 /*
 - base, gray: F5F4F2, from the header opacity
-  - blue: B6E1F6
-    - darker: 6C95A9
-  - orange: F6AB79
+  - blue: 7D87C3    
+    - orange: F6AB79
+    - lila: 32165D
 */
 
 
@@ -86,7 +86,7 @@ a, a:visited {
 */
 
 article section {
-  background: #B6E1F6;
+  background: #7D87C3;
   opacity: .97;
 }
 article #excerpt, article #body {
@@ -110,21 +110,46 @@ article #excerpt:hover,
 /* News, Events
 */
 
-.startpage aside h2 {
-  font-family: 'Rock Salt', cursive;
-}
+
 .startpage aside {
-  background: #000;
   color: #F6AB79;
-  opacity: .8;
+  opacity: .95;
   font-family: 'Abel', sans-serif;
 }
+.startpage aside h2 {
+  font-family: 'Rock Salt', cursive;
+  text-shadow: 1px 1px 1px #543106;
+}
+.startpage aside ul {
+  background: #7D87C3;
+}
 .startpage aside a, .startpage aside a:visited {
-  color: #B6E1F6;
+  color: #000;
 }
 .startpage aside li {
-  border-bottom: 1px solid #111;
+  border-bottom: 1px solid #584076;
+  padding: .625em;
 }
+.startpage aside li .date {
+  background: #F6AB79;
+  color: #000;
+  padding: 0 .312em;
+}
+
+
+
+/* Page 
+*/
+
+
+#video {
+  background: #000;
+  opacity: .7;
+}
+
+
+
+
 
 
 
