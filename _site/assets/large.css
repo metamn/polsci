@@ -16,6 +16,9 @@
 .startpage article #excerpt {  
   top: 27.5em;
 }
+.startpage article #body {
+  top: 12em; 
+}
 .startpage #footer {
   top: 44em;
 }

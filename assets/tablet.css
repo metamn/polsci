@@ -43,6 +43,12 @@ h3 { font-size:1.30769em; padding:1.28686em 0; }
 #content {
   font-size: smaller;
 }
+.startpage article #excerpt {  
+  top: 22.5em;
+}
+.startpage #footer {
+  top: 46em;
+}
 
 
 /* Menu

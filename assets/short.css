@@ -1,10 +1,7 @@
 /* Startpage
 */
 
-.startpage article #body {  
-  position: relative;
-  top: 0;
-}
+
 .startpage article #excerpt {  
-  bottom: 0;
+  top: 17.5em;
 }
