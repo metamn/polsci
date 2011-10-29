@@ -107,6 +107,21 @@ article #excerpt:hover,
 }
 
 
+/* Login menu, footer 
+*/
+
+#footer, #login a, #login a:visited {
+  background: rgba(0, 0, 0, .1);
+  color: #f9f9f9;
+}
+#footer:hover, #login li:hover {
+  background: rgba(0, 0, 0, .7);
+}
+
+
+
+
+
 /* News, Events
 */
 
