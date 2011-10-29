@@ -49,6 +49,13 @@ h3 { font-size:1.30769em; padding:1.28686em 0; }
 .startpage #footer {
   top: 46em;
 }
+.startpage article section {  
+  position: absolute;
+  top: 0;
+}
+.startpage #footer {
+  position: absolute;
+}
 
 
 /* Menu
@@ -69,4 +76,10 @@ h3 { font-size:1.30769em; padding:1.28686em 0; }
 #news {
   left: 40%;
 }
+
+#news, #events {
+  position: fixed;
+  bottom: .625em;
+}
+
 

@@ -6,6 +6,12 @@
 }
 
 
+body {
+  background: white;
+  background-image: url("assets/background-mobile.jpg") !important;
+}
+
+
 /* The Grid
 */
 
@@ -33,6 +39,8 @@
 /* Startpage
 */
 
-.startpage article #body {
-  display: block;
+.startpage article section {    
+  width: auto;
+  margin-top: 2.5em;
 }
+

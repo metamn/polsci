@@ -38,3 +38,20 @@ h3 { font-size:1.30769em; padding:1.28686em 0; }
   top: 36em;
 }
 
+.startpage article section {  
+  position: absolute;
+  top: 0;
+}
+.startpage #footer {
+  position: absolute;
+}
+
+
+/* News and Events
+*/
+
+#news, #events {
+  position: fixed;
+  bottom: .625em;
+}
+

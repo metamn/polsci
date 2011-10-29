@@ -72,8 +72,6 @@
 
 
 
-
-
 /* Page
 */
 
@@ -95,15 +93,11 @@ article section {
 
 .startpage article section {  
   cursor: pointer;
-  position: absolute;
   width: 45%;
   top: 0;
 }
 .startpage article #body {
   display: none;
-}
-.startpage #footer {
-  position: absolute;
 }
 
 
@@ -117,7 +111,6 @@ article section {
   padding: 1.25em;
   width: 25%;
   display: none;
-  position: fixed;
   bottom: .625em;
 }
 #news {
