@@ -4,34 +4,32 @@
 }
 
 
+/* The Grid
+*/
+
+#sidebar, #content {
+  float: left;
+}
+
 
 
 /* Header
 */
 
-#header {
-  position: fixed;
-  bottom: 0;
-  z-index: 0; 
-}
 #header h1, #header h2, #title h3 {
   padding: 0;
 }
-#header, #title, ul#main {
+#header, ul#main {
   padding: 1.25em;  
 }
 #header #ceu-logo {
-  margin-bottom: .625em;
-}
-#header img {
-  width: 20%;
-}
-
-.startpage #header #ceu-logo {
   margin-bottom: 1.25em;
 }
-.startpage #header img {
+#header img {
   width: auto;
+}
+#title {
+  padding: .625em;
 }
 
 
@@ -39,11 +37,6 @@
 /* Menu
 */
 
-
-#menu {
-  z-index: 1;
-  position: fixed;
-}
 #menu ul {
   list-style: none;
   margin: 2.5em 5%;
@@ -63,10 +56,7 @@
 /* Secondary menu
 */
 
-#secondary {
-  position: fixed;
-  right: 1%;
-}
+
 #secondary ul {
   margin: 0;
   list-style: none;
@@ -85,11 +75,7 @@
 /* Page
 */
 
-article {
-  width: 50%;
-  position: relative;
-  margin-left: 44.5%;
-}
+
 article section {
   padding: 1.25em;
 }
@@ -107,49 +93,37 @@ article section {
 
 .startpage article section {  
   cursor: pointer;
+  position: absolute;
+  bottom: .625em;
 }
 .startpage article #body {
   display: none;
 }
-.startpage article #body {
-  display: none;
-}
-.startpage #body, .startpage #excerpt {
-  position: fixed;
-}
-.startpage #secondary {
-  left: 45%;
-}
-.startpage #secondary ul {
-  display: block;
-}
-.startpage #secondary ul li {
-  display: inline-block;
-  list-style-type: none;
-  margin-left: 0;
-  white-space: nowarp;  
-}
+
+
+
 
 
 /* News and Events
 */
 
-.startpage aside {
+#news, #events {
   padding: 1.25em;
   width: 25%;
-  position: fixed;
   display: none;
+  position: fixed;
+  bottom: .625em;
 }
-.startpage #news {
-  margin-left: 40.1%;
+#news {
+  left: 45%;
 }
-.startpage #events {
-  margin-left: 67%;
+#events {
+  left: 70%;
 }
-.startpage aside ul {
+#news ul, #events ul {
   list-style: circle;
 }
-.startpage aside li {
+#news li, #events li {
   margin-bottom: .625em;
   padding-bottom: .625em;
 }

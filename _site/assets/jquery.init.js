@@ -10,17 +10,13 @@ jQuery(document).ready(function(){
     jQuery("#menu #" + value).show("slow");
   });
   
-  // Show Home button when entering a submenu
-  if (!(submenus.contains('startpage'))) {
-    jQuery("#menu #home").show();
-  }
-  
+    
   // Show Events, News, Search ...
   jQuery("#secondary li h4").click(function() {
     var id = "#" + jQuery(this).attr('class'); 
     jQuery(id).toggle('slow', function() {
       // Check which div to switch of
-      if (jQuery(".startpage #body").is(":visible")) {
+      if (jQuery("#content #body").is(":visible")) {
         toggleArticleOpacity("");  
       } else {
         toggleArticleOpacity(" #excerpt");  
@@ -35,13 +31,13 @@ jQuery(document).ready(function(){
     var switchOff = false;
     
     jQuery.each(["#news", "#events"], function(index, value) { 
-      switchOff = switchOff || (jQuery(".startpage " + value).is(":visible"));
+      switchOff = switchOff || (jQuery(value).is(":visible"));
     });
     
     if (switchOff) {
-      jQuery(".startpage article" + div).fadeTo('slow', .1);
+      jQuery("#content article" + div).fadeTo('slow', .1);
     } else {
-      jQuery(".startpage article" + div).fadeTo('slow', .97);
+      jQuery("#content article" + div).fadeTo('slow', .97);
     }
   }
   
