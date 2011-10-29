@@ -3,16 +3,23 @@
 
 
 #header, #menu {
-  width: 25%;
+  width: 30%;
 }
-#header img {
-  width: 80%;
+
+#header {
+  display: none;
 }
 
 
 /* Startpage
 */
 
+.startpage #header {
+  display: block;
+}
+.startpage #header img {
+  width: 30%;
+}
 .startpage #excerpt, .startpage #body {  
   bottom: 2.5em;
 }
@@ -24,4 +31,12 @@
 }
 .startpage aside h2 {
   padding: 1.25em 0;
+}
+
+
+/* Menu
+*/
+
+#menu ul li {
+  margin-bottom: .312em;
 }

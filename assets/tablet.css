@@ -13,20 +13,24 @@ h3 { font-size:1.30769em; padding:1.28686em 0; }
 */
 
 
+#header, #menu {
+  width: 38%;
+}
+
 #header {
-  width: 25%;
-}
-#header img {
-  width: 80%;
-}
-#menu {
-  width: 35%;
+  display: none;
 }
 
 
 /* Startpage
 */
 
+.startpage #header {
+  display: block;
+}
+.startpage #header img {
+  width: 30%;
+}
 .startpage article {
   width: auto;
 }
@@ -51,4 +55,11 @@ h3 { font-size:1.30769em; padding:1.28686em 0; }
   padding: 1.25em 0;
 }
 
+
+/* Menu
+*/
+
+#menu ul li {
+  margin-bottom: .312em;
+}
 
