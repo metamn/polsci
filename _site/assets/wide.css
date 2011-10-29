@@ -26,3 +26,15 @@ h3 { font-size:1.30769em; padding:1.28686em 0; }
 #header img {
   width: 30%;
 }
+
+
+/* Startpage
+*/
+
+.startpage article #excerpt {  
+  top: 20em;
+}
+.startpage #footer {
+  top: 36em;
+}
+

@@ -96,14 +96,14 @@ article section {
 .startpage article section {  
   cursor: pointer;
   position: absolute;
-  bottom: 5em;
+  width: 45%;
+  top: 0;
 }
 .startpage article #body {
   display: none;
 }
 .startpage #footer {
   position: absolute;
-  bottom: 1.25em;
 }
 
 
@@ -148,19 +148,17 @@ article section {
   list-style: none;
   margin: 0;
 }
-#login li, #footer p {
-  padding: .625em;
-  margin: 0;
+#login li {
+  margin-right: .625em;
 }
-#login li a {
-  padding: .312em;
-}
-
-.copyright {
+#login li h4 {
+  padding: .325em .625em;
   cursor: pointer;
 }
 #copyright {
   display: none;
+  padding: .625em;
+  margin: 0;
 }
 
 

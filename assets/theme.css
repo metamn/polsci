@@ -93,12 +93,14 @@ article #excerpt, article #body {
   font-size: larger;
 }
 article #excerpt, article #body,
-#secondary li {
+#secondary li,
+#login li {
   border: .312em solid rgba(0, 0, 0, 0.1);
   background-clip: padding-box;
 }
 article #excerpt:hover,
-#secondary li:hover {
+#secondary li:hover,
+#login li:hover {
   border: .312em solid rgba(255, 255, 255, 0.1);
 }
 #secondary li h4 {
@@ -110,12 +112,11 @@ article #excerpt:hover,
 /* Login menu, footer 
 */
 
-#footer, #login a, #login a:visited {
-  background: rgba(0, 0, 0, .3);
-  color: #f9f9f9;
+#login li h4, #copyright {
+   background: rgba(0, 0, 0, .7);
 }
-#footer:hover, #login a:hover {
-  background: rgba(0, 0, 0, .7);
+#login a, #login a:visited, #copyright {
+  color: #f9f9f9;
 }
 
 

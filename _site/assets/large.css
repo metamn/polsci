@@ -10,4 +10,14 @@
 }
 
 
+/* Startpage
+*/
+
+.startpage article #excerpt {  
+  top: 27.5em;
+}
+.startpage #footer {
+  top: 44em;
+}
+
 
