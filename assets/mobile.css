@@ -1,0 +1,38 @@
+.desktop {
+  display: none !important;
+}
+.mobile {
+  display: block;
+}
+
+
+/* The Grid
+*/
+
+#container {
+  width: auto;
+}
+#sidebar, #content {    
+  width: auto;
+  margin-right: 0;
+}
+
+
+
+/* Menu 
+*/
+
+#menu ul {
+  margin: 2.5em 2% 2.5em 0;
+}
+#menu ul li {
+  padding-left: 2%;
+}
+
+
+/* Startpage
+*/
+
+.startpage article #body {
+  display: block;
+}
