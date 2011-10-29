@@ -4,6 +4,11 @@ jQuery.noConflict();
 jQuery(document).ready(function(){
   
   
+  // Toggle copyright
+  jQuery(".copyright").click(function() {
+    jQuery("#copyright").toggle('slow');
+  });
+  
   // Show submenus
   var submenus = jQuery("body")[0].classList;
   jQuery.each(submenus, function(index, value) { 
