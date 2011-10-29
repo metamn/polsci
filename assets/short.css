@@ -1,0 +1,13 @@
+/* Startpage
+*/
+
+.startpage article #body {  
+  position: relative;
+  top: 0;
+}
+.startpage article #excerpt {  
+  bottom: 0;
+}
+.startpage #footer {
+  display: none;
+}

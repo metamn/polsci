@@ -71,29 +71,6 @@
 
 
 
-/* Login menu 
-*/
-
-#login, #footer {
-  margin: 1.25em 0;
-  font-size: smaller;
-}
-#login ul {
-  list-style: none;
-  margin: 0;
-}
-#login li {
-  padding: .312em;
-  margin-right: .625em;
-}
-#login li a {
-  padding: .312em;
-}
-
-
-#footer {
-  padding: .625em;
-}
 
 
 
@@ -119,12 +96,16 @@ article section {
 .startpage article section {  
   cursor: pointer;
   position: absolute;
-  bottom: .625em;
+  bottom: 6.25em;
 }
 .startpage article #body {
   display: none;
 }
-
+.startpage #footer {
+  position: absolute;
+  bottom: 0;
+  margin: 0 .2% 0;
+}
 
 
 
@@ -152,6 +133,28 @@ article section {
 #news li, #events li {
   margin-bottom: .625em;
   padding-bottom: .625em;
+}
+
+
+
+/* Footer
+*/
+
+#footer {
+  padding: .625em;
+  font-size: smaller;
+}
+
+#login ul {
+  list-style: none;
+  margin: 0;
+}
+#login li, #footer p {
+  padding: .625em;
+  margin: 0;
+}
+#login li a {
+  padding: .312em;
 }
 
 

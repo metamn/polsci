@@ -111,10 +111,10 @@ article #excerpt:hover,
 */
 
 #footer, #login a, #login a:visited {
-  background: rgba(0, 0, 0, .1);
+  background: rgba(0, 0, 0, .3);
   color: #f9f9f9;
 }
-#footer:hover, #login li:hover {
+#footer:hover, #login a:hover {
   background: rgba(0, 0, 0, .7);
 }
 
