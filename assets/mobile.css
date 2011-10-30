@@ -109,7 +109,8 @@ article section {
   padding: 1.25em 0;
 }
 #toc li {
-  margin-bottom: .312em;
+  border-bottom: 1px solid #D6DCFF;
+  margin-bottom: .625em;
 }
 
 
