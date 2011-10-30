@@ -5,6 +5,29 @@ jQuery(document).ready(function(){
   
   var mobile = jQuery("#skip-to-content").is(":visible");
   
+  
+  // Clicking TOC
+  // Read more
+  jQuery("#toc h4").click(function() {
+    jQuery(this).next().toggle('slow');
+  });
+  
+  // Creating TOC
+  var toc = jQuery("#body > :header:not(h4,h5,h6)");
+  if (toc.size() > 1) {
+    jQuery("#toc h4").removeClass('hidden');
+    var res = "<ul>";
+    toc.each(function(index) { 
+      var ref = " id" + index;
+      var id = jQuery(this).attr("id");
+      jQuery(this).attr("id", id + ref);
+      res = res + "<li><a href='#" + ref + "'>" + this.innerHTML + '</a></li>';
+    });
+    res += "</ul>";
+    jQuery("#toc #items").append(res);
+  }
+  
+  
   // Read more
   jQuery("#more h4").click(function() {
     jQuery(this).next().toggle('slow');

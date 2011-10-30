@@ -59,7 +59,7 @@ h3 { font-size:1.30769em; padding:1.28686em 0; }
   margin-top: 2.5em;
 }
 #skip-to-content a, #skip-to-content a:visited,
-#toc {
+#toc h4 {
   opacity: .4;
 }
 
@@ -91,7 +91,10 @@ article section {
   width: auto;
   background: none;
 }
-
+.newsticker ul {
+  margin: 0 .125em;
+  opacity: .9;
+}
 
 
 
@@ -101,3 +104,12 @@ article section {
 #more {
   margin: 1.25em 0;
 }
+#toc #items {
+  background: #BDC6FF;
+  padding: 1.25em 0;
+}
+#toc li {
+  margin-bottom: .312em;
+}
+
+
