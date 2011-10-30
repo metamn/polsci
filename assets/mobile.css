@@ -7,9 +7,17 @@
 
 
 body {
-  background: white;
-  background-image: url("assets/background-mobile.jpg") !important;
+  background: url("/assets/background-mobile.png") repeat scroll 0 0 #BDC6FF !important;
 }
+
+
+/* Typography
+*/
+
+h1 { font-size:2.11538em; padding:1.44305em 0; }
+h2 { font-size:1.61538em; padding:1.30936em 0; }
+h3 { font-size:1.30769em; padding:1.28686em 0; }
+
 
 
 /* The Grid
@@ -25,14 +33,28 @@ body {
 
 
 
+/* Header
+*/
+
+#header img {
+  width: 30%;
+}
+
+
+
 /* Menu 
 */
 
-#menu ul {
-  margin: 2.5em 2% 2.5em 0;
-}
+
 #menu ul li {
   padding-left: 2%;
+}
+#skip-to-content {
+  margin-top: 2.5em;
+}
+#skip-to-content a, #skip-to-content a:visited,
+#toc {
+  opacity: .4;
 }
 
 
@@ -45,6 +67,7 @@ article section {
   width: auto;
   margin-top: 2.5em;
 }
-
-
-
+#toc {
+  margin-top: 2.5em;
+  cursor: pointer;
+}
