@@ -3,6 +3,7 @@ jQuery.noConflict();
 // Use jQuery via jQuery(...)
 jQuery(document).ready(function(){
   
+  var mobile = jQuery("#skip-to-content").is(":visible");
   
   // Read more
   jQuery("#more h4").click(function() {
@@ -17,15 +18,14 @@ jQuery(document).ready(function(){
   });
   
   // Show submenus
-  var submenus = jQuery("body")[0].classList;
+  var submenus = jQuery("body").attr('class').split(/\s+/);
   jQuery.each(submenus, function(index, value) { 
     jQuery("#menu #" + value).show("slow");
   });
   
     
   // Show Events, News, Search ...
-  jQuery("#secondary li h4").click(function() {    
-    var mobile = jQuery("#skip-to-content").is(":visible");
+  jQuery("#secondary li h4").click(function() {        
     var id = "#" + jQuery(this).attr('class'); 
     
     if (mobile) {
@@ -78,5 +78,8 @@ jQuery(document).ready(function(){
   
   
   // Set background image
-  jQuery('body').css('background-image', 'url(' + jQuery("#background-image").html() + ')');  
+  if (!mobile) {
+    jQuery('body').css('background-image', 'url(' + jQuery("#background-image").html() + ')');  
+  }
+  
 });

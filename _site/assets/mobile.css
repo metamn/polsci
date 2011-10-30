@@ -1,7 +1,4 @@
-#container {
-  width: 98%;
-  margin: 0 auto;
-}
+
 
 .desktop {
   display: none !important;
@@ -29,7 +26,8 @@ h3 { font-size:1.30769em; padding:1.28686em 0; }
 */
 
 #container {
-  width: auto;
+  width: 98%;
+  margin: 0 auto;
 }
 #sidebar, #content {    
   width: auto;
