@@ -37,7 +37,6 @@ h3 { font-size:1.30769em; padding:1.28686em 0; }
 */
 
 #header img {
-  width: 30%;
   padding: 1% 0;
 }
 
@@ -85,5 +84,5 @@ article section {
 */
 
 #login ul {
-  width: 30%;
+  width: 45%;
 }

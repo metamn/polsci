@@ -4,6 +4,10 @@
 }
 
 
+.mobile {
+  display: none;
+}
+
 /* The Grid
 */
 
