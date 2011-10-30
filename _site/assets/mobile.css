@@ -36,9 +36,13 @@ h3 { font-size:1.30769em; padding:1.28686em 0; }
 /* Header
 */
 
-#header img {
-  padding: 1% 0;
+#ceu-logo {
+  background: #f9f9f9;
 }
+#ceu-logo a, #ceu-logo a:visited {
+  color: #f9f9f9;
+}
+
 
 
 
