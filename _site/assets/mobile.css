@@ -38,6 +38,7 @@ h3 { font-size:1.30769em; padding:1.28686em 0; }
 
 #header img {
   width: 30%;
+  padding: 1% 0;
 }
 
 
@@ -58,16 +59,38 @@ h3 { font-size:1.30769em; padding:1.28686em 0; }
 }
 
 
+#title {
+  padding-left: .937em;
+}
+
 
 /* Startpage
 */
 
-.startpage article section,
-article section {    
+.startpage article section {    
   width: auto;
   margin-top: 2.5em;
+}
+article section {
+  width: auto;
 }
 #toc {
   margin-top: 2.5em;
   cursor: pointer;
+}
+
+
+
+/* Footer
+*/
+
+#login ul {
+  display: block;
+  margin: 0;
+}
+#login ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin-left: 0;
+  white-space: nowarp;  
 }
