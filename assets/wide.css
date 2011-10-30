@@ -55,3 +55,18 @@ h3 { font-size:1.30769em; padding:1.28686em 0; }
   bottom: .625em;
 }
 
+
+/* Footer
+*/
+
+#login ul {
+  display: block;
+  margin: 0;
+}
+#login ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin-left: 0;
+  white-space: nowarp;  
+}
+

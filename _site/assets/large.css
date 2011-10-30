@@ -39,3 +39,17 @@
   position: fixed;
   bottom: .625em;
 }
+
+/* Footer
+*/
+
+#login ul {
+  display: block;
+  margin: 0;
+}
+#login ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin-left: 0;
+  white-space: nowarp;  
+}
