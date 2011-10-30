@@ -127,26 +127,26 @@ article #excerpt:hover,
 */
 
 
-#news, #events {
+.newsticker {
   background: rgba(0, 0, 0, .1);
   color: #F6AB79;
   font-family: 'Abel', sans-serif;
 }
-#news h2, #events h2 {
+.newsticker h2 {
   font-family: 'Rock Salt', cursive;
   text-shadow: 1px 1px 1px #543106;
 }
-#news ul, #events ul {
+.newsticker ul {
   background: #7D87C3;
 }
-#news a, #events a, #news a:visited, #events a:visited {
+.newsticker a, .newsticker a:visited {
   color: #000;
 }
-#news li, #events li {
+.newsticker li {
   border-bottom: 1px solid #584076;
   padding: .625em;
 }
-#news li .date, #events li .date {
+.newsticker li .date {
   background: #F6AB79;
   color: #000;
   padding: 0 .312em;

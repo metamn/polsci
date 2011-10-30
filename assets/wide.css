@@ -50,7 +50,7 @@ h3 { font-size:1.30769em; padding:1.28686em 0; }
 /* News and Events
 */
 
-#news, #events {
+.newsticker {
   position: fixed;
   bottom: .625em;
 }

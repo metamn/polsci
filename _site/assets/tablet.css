@@ -70,17 +70,18 @@ h3 { font-size:1.30769em; padding:1.28686em 0; }
 /* News, Events 
 */
 
-#news ul, #events ul {
+.newsticker {
+  position: fixed;
+  bottom: .625em;
+}
+.newsticker ul {
   margin: 0;
 }
 #news {
   left: 40%;
 }
 
-#news, #events {
-  position: fixed;
-  bottom: .625em;
-}
+
 
 /* Footer
 */

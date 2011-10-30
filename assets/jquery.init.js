@@ -4,6 +4,13 @@ jQuery.noConflict();
 jQuery(document).ready(function(){
   
   
+  // Read more
+  jQuery("#more h4").click(function() {
+    jQuery(this).next().toggle('slow');
+    jQuery(this).hide('slow');
+  });
+  
+  
   // Toggle copyright
   jQuery(".copyright").click(function() {
     jQuery("#copyright").toggle('slow');
@@ -17,17 +24,22 @@ jQuery(document).ready(function(){
   
     
   // Show Events, News, Search ...
-  jQuery("#secondary li h4").click(function() {
+  jQuery("#secondary li h4").click(function() {    
+    var mobile = jQuery("#skip-to-content").is(":visible");
     var id = "#" + jQuery(this).attr('class'); 
-    jQuery(id).toggle('slow', function() {
-      // Check which div to switch of
-      if (jQuery("#content #body").is(":visible")) {
-        toggleArticleOpacity("");  
-      } else {
-        toggleArticleOpacity(" #excerpt");  
-      }            
-    });
-      
+    
+    if (mobile) {
+      jQuery("#news-holder").html(jQuery(id).html()).show('slow');
+    } else {
+      jQuery(id).toggle('slow', function() {
+        // Check which div to switch of
+        if (jQuery("#content #body").is(":visible")) {
+          toggleArticleOpacity("");  
+        } else {
+          toggleArticleOpacity(" #excerpt");  
+        }            
+      });
+    }      
   });
   
   // Hiding or showing the main article 

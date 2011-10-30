@@ -35,10 +35,11 @@
 /* News and Events
 */
 
-#news, #events {
+.newsticker {
   position: fixed;
   bottom: .625em;
 }
+
 
 /* Footer
 */

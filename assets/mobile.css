@@ -1,3 +1,8 @@
+#container {
+  width: 98%;
+  margin: 0 auto;
+}
+
 .desktop {
   display: none !important;
 }
@@ -60,7 +65,6 @@ h3 { font-size:1.30769em; padding:1.28686em 0; }
   opacity: .4;
 }
 
-
 #title {
   padding-left: .937em;
 }
@@ -82,4 +86,20 @@ article section {
 }
 
 
+/* News and Events
+*/
 
+.newsticker {
+  width: auto;
+  background: none;
+}
+
+
+
+
+/* Page 
+*/
+
+#more {
+  margin: 1.25em 0;
+}

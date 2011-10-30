@@ -113,7 +113,7 @@ article section {
 /* News and Events
 */
 
-#news, #events {
+.newsticker {
   padding: 1.25em;
   width: 25%;
   display: none;
@@ -125,10 +125,10 @@ article section {
 #events {
   left: 70%;
 }
-#news ul, #events ul {
+.newsticker ul {
   list-style: circle;
 }
-#news li, #events li {
+.newsticker li {
   margin-bottom: .625em;
   padding-bottom: .625em;
 }
