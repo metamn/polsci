@@ -88,6 +88,71 @@ p + p {
   margin-top: 1.25em;
 }
 
+
+
+
+/* 
+## Lists ##
+
+* both `<ul>, <ol>, <dl>` items are indented in the same way
+* items are separated by a blank line
+* cascading lists identation is also supported
+
+*/
+
+
+ol {
+  list-style-type: decimal;  
+}
+ul {
+  list-style-type: disc;  
+}
+ol, ul {
+  margin-left: 2.5em;
+}
+ol ol, ol ul, ul ul, ul ol, dl, dl dl {
+  margin-top: 1.25em;
+}
+li, dd {
+  margin-bottom: 1.25em;
+}
+dd {
+  margin-left: 1.25em;
+}
+
+
+/* 
+## Tables ##
+
+* table header is bold
+* table rows are separated with a blank line
+* all cells are aligned to top  
+* all cells are padded
+* normal cells are indented related to table header
+* no borders were used
+
+*/
+
+table {
+  width: 100%;
+  margin-bottom: 5em;
+}
+td, th, tr {
+  vertical-align: top;
+  text-align: left;
+}
+th {
+  padding-left: 0;
+  font-weight: bold;
+}
+td {
+  padding: 1.25em 1.25em 0 1.25em;
+}
+
+
+
+
+
 /* Common 
 */
 

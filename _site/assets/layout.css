@@ -86,7 +86,7 @@ article section {
   padding: 1.25em;
 }
 
-#video {
+#video, #image {
   padding: 1.25em;
   margin: 1.25em 0;
 }

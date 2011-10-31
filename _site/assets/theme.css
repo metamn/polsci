@@ -158,14 +158,140 @@ article #excerpt:hover,
 */
 
 
-#video {
+#video, #image {
   background: #000;
   opacity: .7;
 }
 
+#content a, #content a:visited {
+  text-decoration: underline;
+}
+#login a, #login a:visited {
+  text-decoration: none;
+}
+
+#content li {
+  margin-bottom: 0;
+}
+#content ul.no-bullets {
+  list-style: none;
+}
+#content li.download:before {
+  content: url("/assets/arrow-down.png");
+  opacity: .1;
+  margin-right: .625em;
+}
+#content li.download {
+  margin-bottom: .625em;
+}
+
+
+dt {
+  font-weight: bold;
+}
+dd:before {
+  content: '{ ';
+}
+dd:after {
+  content: ' }';
+}
+dd {
+  margin-top: .625em;
+  margin-bottom: .625em;
+}
+
+
+#content h4, #content h5, #content h6 {
+  padding: 1.25em 0;
+}
+
+.notice, .important {
+  border-bottom: 1px dotted;
+  padding: .625em;
+  font-variant: small-caps;
+}
+.important {
+  border-bottom: 1px dashed #F6AB79;
+}
+.important:before {
+  content: '!';
+  font-weight: bold;
+  font-size: 130%;
+  
+  background: #F6AB79;
+  color: #7D87C3;
+  
+  margin-right: .625em; 
+  padding: 0 .312em;
+}
 
 
 
+/* Profile */
+
+#content #profile {
+  margin-bottom: 2.5em;
+}
+#content #profile .col-a {
+  width: 10%;
+  margin-right: 10%;
+  float: left;
+}
+#content #profile .col-b {
+  float: left;
+  width: 70%;
+}
+#content #profile #image {
+  padding: 0;
+  margin-top: 0;
+}
+#content #profile #name {
+  font-variant: small-caps;
+}
+#content #profile #dept {
+  font-variant: small-caps;
+}
+#content #profile #enrollment {
+  margin: .625em;
+}
+#content #profile #description {
+}
+
+
+
+/* Tables */
+
+
+#content th {
+  border-bottom: 1px double;
+}
+
+#content td {
+  padding: 1.25em .312em;
+  border-bottom: 1px dotted;
+}
+#content td ul {
+  margin: 0;
+  list-style: none;
+}
+#content td ul li {
+  border-bottom: 1px dotted;
+  margin-bottom: .625em;
+}
+#content tr.red td {
+  background: #D57D5E;
+}
+#content tr.blue td {
+  background: #4659CD;
+}
+#content tr.yellow td {
+  background: #579A25;
+}
+#content tr.red td, 
+#content tr.blue td, 
+#content tr.yellow td {
+  padding: 1.25em;
+}
 
 
 
