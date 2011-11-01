@@ -6,6 +6,12 @@ jQuery(document).ready(function(){
   var mobile = jQuery("#skip-to-content").is(":visible");
   
   
+  // Logo
+  jQuery(".logo h1").each(function(index) {
+    index += 1;
+    jQuery(this).html(jQuery(this).html() + "<span>" + index + "</span>");
+  });
+  
   // Clicking TOC
   // Read more
   jQuery("#toc h4").click(function() {

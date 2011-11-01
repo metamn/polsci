@@ -162,4 +162,144 @@ article section {
 
 
 
+/* Logo
+*/
+
+.logo {
+  text-align: center;
+}
+.logo span {
+  float: right;
+  margin-right: 1%;
+  color: #eee;
+}
+.logo #footer {
+  display: none;
+}
+
+
+h1 {
+  font-variant: small-caps;
+  border-bottom: 1px dotted #eee;
+}
+h1:before {
+  content: '+';
+  margin-right: .312em;
+  
+  background: black;
+  color: white;
+  padding: .312em;
+}
+
+h1#b:before {
+  border-radius: 1.25em;
+  padding: .312em .5em;
+}
+
+h1#c:before {
+  background: white;
+  color: black;
+  border: 1px dotted;
+}
+
+h1#d:before {
+  background: white;
+  color: black;
+  border: 1px dashed;
+}
+
+h1#e:before {
+  background: white;
+  color: #eee;
+  border: 1px solid;
+}
+
+h1#f:before {
+  background: white;
+  color: black;
+  border: 1px inset;
+}
+
+h1#g:before {
+  background: white;
+  color: black;
+  border: 1px outset;
+}
+
+h1#h:before {
+  background: #F5F4F2;
+  color: black;
+  border: 1px solid;
+}
+
+h1#i:before {
+  background: #7D87C3;
+  color: black;
+  border: 1px solid;
+}
+
+h1#j:before {
+  background: #F6AB79;
+  color: black;
+  border: 1px solid;
+}
+
+h1#k:before {
+  background: white;
+  color: #F6AB79;
+  border: 1px solid;
+}
+
+h1#l:before {
+  background: #7D87C3;
+  color: white;
+  border: 1px solid;
+}
+
+h1#m:before {
+  background: #7D87C3;
+  color: white;
+  border-radius: 1.25em;
+  padding: .312em .5em;
+}
+
+h1#n:before {
+  background: #32165D;
+  color: white;
+  border: 1px solid;
+}
+
+h1#o:before {
+  background: white;
+  color: #32165D;
+  border: 1px solid;
+}
+
+
+h1#p:before {
+  content: url("/assets/noun_project_9.svg");
+}
+h1#q:before {
+  content: url("/assets/vote.png");
+  background: white;
+  color: black;
+  margin: 0;
+}
+h1#r:before {
+  content: url("/assets/piechart.png");
+  background: white;
+  color: black;
+  margin: 0;
+}
+h1#s:before {
+  content: url("/assets/stairs.png");
+  background: white;
+  color: black;
+  margin: 0;
+}
+
+
+
+
+
 
