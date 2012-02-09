@@ -22,22 +22,25 @@
 /* Header
 */
 
-#header h1, #header h2, #title h3 {
+#header h1, #header h2 {
   padding: 0;
 }
 #header, ul#main {
   padding: 1.25em;  
 }
 #header #ceu-logo {
-  padding-bottom: 1.25em;
+  margin-bottom: 1.25em;
 }
 #header img {
-  width: auto;
-}
-#title {
-  padding: .625em;
+  width: 30%;
 }
 
+#title {
+  padding: .625em .937em 1.25em;
+}
+#title h3 {
+  padding: .312em;
+}
 
 
 /* Menu
@@ -161,6 +164,29 @@ article section {
 }
 
 
+/* Other
+*/
+
+/* The visual grid */
+.grid {
+  position: absolute;
+  top: 0;
+  opacity: .1;
+  display: block;
+  z-index: -1;
+}
+#gridh .col {
+  border-bottom: 1px solid;
+  width: 118em;
+  height: 19px; /* 1.25em = 20px - 1px border */
+}
+#gridv .col {
+  border-right: 1px solid;
+  width: 10%; 
+  height: 250em;
+  float: left;
+}
+
 
 /* Logo
 */
@@ -178,11 +204,11 @@ article section {
 }
 
 
-h1 {
+.logo h1 {
   font-variant: small-caps;
   border-bottom: 1px dotted #eee;
 }
-h1:before {
+.logo h1:before {
   content: '+';
   margin-right: .312em;
   
